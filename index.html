@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="calendar">
+        <div class="header">
+            <button onclick="previousMonth()">&lt;</button>
+            <h2 id="month-year">Month Year</h2>
+            <button onclick="nextMonth()">&gt;</button>
+        </div>
+        <table>
+            <thead>
+                <tr>          
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+                <!-- Calendar days will be populated here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html

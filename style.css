@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calendar {
+    width: 300px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #eee;
+}
